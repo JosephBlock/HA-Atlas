@@ -1,0 +1,16 @@
+name: RIPE Atlas Probe
+version: "1.0.0"
+slug: "ripe_atlas"
+description: "Run a RIPE Atlas software probe to contribute to Internet infrastructure measurements."
+url: "https://github.com/JosephBlock/HA-Apps/tree/main/ripe-atlas"
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+init: false
+map:
+  - share:rw
+options: {}
+schema: {}
+image: "ghcr.io/josephblock/ha-atlas:1.0.0"
